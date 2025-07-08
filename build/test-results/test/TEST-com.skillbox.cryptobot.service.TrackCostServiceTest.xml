@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.skillbox.cryptobot.service.TrackCostServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-08T12:28:51" hostname="WIN-Q4UI1OOSVA6" time="0.234">
+  <properties/>
+  <testcase name="trackCost()" classname="com.skillbox.cryptobot.service.TrackCostServiceTest" time="0.234"/>
+  <system-out><![CDATA[15:28:51.838 [Test worker] INFO  c.s.c.service.TrackCostService - Send notification user with id 1
+15:28:51.841 [Test worker] INFO  c.s.c.service.TrackCostService - Send notification user with id 2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

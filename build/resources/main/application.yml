@@ -1,0 +1,26 @@
+telegram:
+  bot:
+    username: ${BOT_NAME:crypto_skillbox_bot}
+    token: ${BOT_TOKEN:7659943847:AAEgWTGMpbEeqAUj2M8JCncBv-ITItv-IvA}
+    notify:
+      delay:
+        value: 10
+        unit: MINUTES
+
+binance:
+  api:
+    getPrice: https://api.binance.com/api/v3/avgPrice?symbol=BTCUSDT
+
+scheduler:
+  getPriceInterval: ${GET_PRICE_CRON:0 */2 * * * *}
+  notificationInterval: 10
+
+spring:
+  datasource:
+    url: jdbc:postgresql://${PG_HOST:localhost:5435}/db
+    username: ${PG_USER:root}
+    password: ${PG_PASSWORD:root}
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: ${HIBERNATE_DDL_AUTO:update}
