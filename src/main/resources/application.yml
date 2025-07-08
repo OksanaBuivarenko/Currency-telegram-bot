@@ -1,7 +1,7 @@
 telegram:
   bot:
-    username: ${BOT_NAME:crypto_skillbox_bot}
-    token: ${BOT_TOKEN:7659943847:AAEgWTGMpbEeqAUj2M8JCncBv-ITItv-IvA}
+    username: ${BOT_NAME}
+    token: ${BOT_TOKEN}
     notify:
       delay:
         value: 10
